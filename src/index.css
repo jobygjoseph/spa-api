@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+img{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.selectpicker {
+  width: 50%;
+}
+input[type=text], .form-group.row.form-input{
+  width: 50%;
+}
+
+select.selectpicker:not([size]):not([multiple]) {
+  height: calc(2.25rem + 2px);
+}
